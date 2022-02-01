@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Merriweather:ital@1&display=swap");
+
+.form {
+  margin: 1rem 0;
+  height: 19rem;
+  overflow: scroll;
+}
+
+.heading-info {
+  font-family: "Merriweather", serif;
+
+  margin: 1rem;
+  font-size: large;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.nameControlClasses {
+  font-family: "Merriweather", serif;
+
+  margin-bottom: 0.5rem;
+  font-size: large;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.passwordControlClasses {
+  font-family: "Merriweather", serif;
+
+  margin-bottom: 0.5rem;
+  font-size: large;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.actions {
+  margin: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.actions .submit-btn {
+  font-family: "Merriweather", serif;
+
+  font: inherit;
+  color: #e7f0ff;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #e7f0ff;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+}
+
+.actions .cancel-btn:hover,
+.actions .cancel-btn:active {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.actions .submit-btn:hover,
+.actions .submit-btn:active {
+  background-color: black;
+  color: whitesmoke;
+}
+.actions .cancel-btn {
+  font-family: "Merriweather", serif;
+
+  font: inherit;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  background-color: whitesmoke;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+  border: none;
+}
+
+input {
+  margin-left: 15px;
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 15rem;
+  max-width: 100%;
+  display: inline;
+}

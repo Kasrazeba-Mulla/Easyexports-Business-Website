@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Merriweather:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flexbox {
+  font-family: "Merriweather", serif;
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+  height: 80vh;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.flexbox .container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.712);
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
+}
+
+.flexbox .container .draggable {
+  padding: 15px 25px;
+  color: rgba(0, 0, 0, 0.712);
+  background-color: #f8f8f4;
+  cursor: pointer;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 1.25rem;
+}
+
+.headings {
+  font-family: inherit;
+  margin: 15px;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.712);
+  font-size: x-large;
+  text-align: center;
+}
+
+.plan-btn {
+  width: 130px;
+  height: 45px;
+  cursor: pointer;
+  font-family: "Merriweather", serif;
+  border: none;
+  background-color: #f8f8f4;
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.712);
+  text-align: center;
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 25px;
+  font-weight: 400;
+  font-size: medium;
+  margin-left: 700px;
+  margin-top: 20px;
+}
+
+.plan-btn:hover,
+.plan-btn:active {
+  background-color: rgba(0, 0, 0, 0.712);
+  color: aliceblue;
+  border: none;
+}
+
+@media (max-width: 700px) {
+  .plan-btn {
+    margin-top: 80px;
+    margin-left: 270px;
+    pointer-events: none;
+  }
+}

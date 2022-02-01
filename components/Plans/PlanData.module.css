@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Merriweather:ital@1&display=swap");
+
+.show-table {
+  margin-left: 26%;
+  margin-top: 50px;
+}
+
+.col-md-6 {
+  margin-top: 50px;
+  margin-left: 420px;
+  border: none;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.card-body {
+  background-color: #f8f8f4;
+  width: 500px;
+}
+
+.card-header {
+  background-color: #f8f8f4;
+  color: rgba(0, 0, 0, 0.712);
+  font-family: "Merriweather", serif;
+  width: 500px;
+}

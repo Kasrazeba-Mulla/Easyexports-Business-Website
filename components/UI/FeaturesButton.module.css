@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Merriweather:ital@1&display=swap");
+
+.button {
+  cursor: pointer;
+  font-family: "Merriweather", serif;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.712);
+  color: aliceblue;
+  width: 100px;
+  height: 40px;
+
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 300;
+  display: inline;
+  float: right;
+  margin-top: 18px;
+  margin-right: 20px;
+}
+
+.button:hover,
+.button:active {
+  background-color: #f8f8f4;
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.712);
+}
